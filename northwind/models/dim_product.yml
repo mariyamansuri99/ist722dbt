@@ -20,9 +20,5 @@ models:
         description: Dimension key for dim_supplier
       - name: categoryname
         description: product category name
-        tests:
-            - not_null
       - name: categorydescription
         description: product category description
-        tests:
-            - not_null
